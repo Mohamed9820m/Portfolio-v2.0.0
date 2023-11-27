@@ -65,6 +65,12 @@ button:hover {
 	color: #FFF;
 }
 
+.btn,button{
+	border: none !important;
+	box-shadow: none; /* Remove the shadow */
+
+}
+
 
 .lui-subtitle{
 	font-family: "titre";
@@ -243,6 +249,8 @@ button:hover {
 		padding-top: 140px;
 		text-align: center;
 	}
+
+
 	.section.hero-started .titles {
 		margin-bottom: 760px;
 		max-width: 100%;
@@ -261,6 +269,14 @@ button:hover {
 	}
 	.section.hero-started .description {
 		margin: 0 auto;
+	}
+
+	.section.hero-started .social-links{
+
+		display: flex;
+		justify-content: center; 
+		align-items: center; 
+
 	}
 
 
@@ -321,7 +337,7 @@ button:hover {
 
 	/*started hero*/
 	.section.hero-started .content {
-		padding-top: 38px;
+		padding-top: 62px;
 	}
 	.section.hero-started .titles {
 		margin-bottom: 420px;
@@ -356,6 +372,15 @@ button:hover {
 		width: 2px;
 	}
 
+	.section.hero-started .social-links{
+
+		display: flex;
+		justify-content: center; /* horizontally center */
+		align-items: center; /* vertically center */
+
+	}
+
+	
 
 
 }

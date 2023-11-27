@@ -19,9 +19,9 @@ export default function App() {
  <Portfolio/>
  <Contact/>
  <Footer/>
-
-
-
     </div>
+
+
+
   );
 }

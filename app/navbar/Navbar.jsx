@@ -88,7 +88,6 @@ export default function App() {
         href="#"
         size="lg"
         onClick={() => handleMenuItemClick(item)}
-        style={{ backgroundColor: "yourColorHere" }}
       >
         <ScrollLink
           activeClass="active"

@@ -56,13 +56,13 @@ const Hero = () => {
 </div>
 
           <div className="social-links flex space-x-4">
-  <a target="_blank" rel="nofollow" href="https://www.instagram.com/_mohamed.habib/?hl=fr">
+  <a target="_blank" rel="nofollow" href="https://bit.ly/3N3pevE">
     <FontAwesomeIcon icon={faInstagram}   style={{ color: "#ffffff", fontSize: '2rem' }} />
   </a>
-  <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/mohamed-habib-43908517b/">
+  <a target="_blank" rel="nofollow" href="https://bit.ly/47y8DIC">
     <FontAwesomeIcon icon={faLinkedin}  style={{ color: "#ffffff", fontSize: '2rem' }} />
   </a>
-  <a target="_blank" rel="nofollow" href="https://github.com/Mohamed9820m">
+  <a target="_blank" rel="nofollow" href="https://bit.ly/47RwOle">
     <FontAwesomeIcon icon={faGithub}   style={{ color: "#ffffff", fontSize: '2rem' }} />
   </a>
 </div>
