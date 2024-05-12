@@ -7,6 +7,10 @@ import image1 from '../../public/ecoclicko.png'
 import birds from '../../public/birds.png'
 import scissors from '../../public/scissors.png'
 import store from '../../public/store.png'
+import coach from '../../public/coach.png'
+
+
+
 
 const PortfolioIsotope = () => {
   return (
@@ -25,6 +29,66 @@ const PortfolioIsotope = () => {
   
 
       <div  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 xl:px-20">
+
+      {/* project one  */}
+
+      
+      <div className="text-black rounded-xl border p-6 bg-white hover:border-black dark:bg-neutral-800 dark:border-neutral-700 cursor-pointer hover:scale-95 ease-in-out ">
+          <div className="group overflow-y-auto no-scrollbar">
+            <div className="my-2 text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300">
+              <i className="fas fa-file-invoice fa-xl fa-fw"></i>
+            </div>
+            <h1 className="text-xl font-medium text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300 font-raleway line-clamp-1 mb-3.5 ">
+            Coaching - Coaching Website
+            </h1>
+
+            <div
+  className="works-item scrolla-element-anim-1 scroll-animate"
+  data-animate="active"
+>
+
+
+  <div className="imag">
+    <div className="img">
+        <a>
+          <Image
+            src={coach}
+            alt="Gooir"
+          />
+          <span className="overlay" />
+        </a>
+    </div>
+  </div>
+    <div className="text m-1">
+      <p>
+      Experience next-level coaching delivered through a cutting-edge platform. This website is built with Next.js, a powerful framework that ensures lightning-fast performance and a seamless user experience. Focus on your transformation while we handle the tech.      </p>
+      
+    </div>
+</div>
+
+         
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://coaching-project.vercel.app/"
+            >
+                <span className="font-raleway leading-normal font-medium flex items-center group hover:fa-bounce">
+                  <span className="underline">View</span>
+                  <div className="text">
+  
+      <Image
+    className="bg-imge"
+    src = {decor}
+    alt="Gooir"
+
+  />
+    </div>
+                </span>
+            </a>
+          </div>
+        </div>
+
+      {/* end project one  */}
         {/* Project 1 */}
 
         <div className="text-black rounded-xl border p-6 bg-white hover:border-black dark:bg-neutral-800 dark:border-neutral-700 cursor-pointer hover:scale-95 ease-in-out ">
@@ -283,7 +347,7 @@ const PortfolioIsotope = () => {
 {/* project 5 */}
 
 
-        <div className="text-black rounded-xl border p-6 bg-white hover:border-black dark:bg-neutral-800 dark:border-neutral-700 cursor-pointer hover:scale-95 ease-in-out ">
+<div className="text-black rounded-xl border p-6 bg-white hover:border-black dark:bg-neutral-800 dark:border-neutral-700 cursor-pointer hover:scale-95 ease-in-out ">
           <div className="group overflow-y-auto no-scrollbar">
             <div className="my-2 text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300">
               <i className="fas fa-file-invoice fa-xl fa-fw"></i>
@@ -338,6 +402,12 @@ const PortfolioIsotope = () => {
             </a>
           </div>
         </div>
+
+
+
+
+
+        
 
 
 
