@@ -80,7 +80,7 @@ function About() {
 </p>
             <div className="flex justify-between items-center space-x-4 w-full xl:w-2/3">
               <div className="flex space-x-4">
-              <a href="https://bit.ly/3GjR0R6" target="_blank">
+              <a href="https://drive.google.com/file/d/1EZIq2NtuH8Ycp4JLiv-HdBYeD1GCPqrK/view?usp=sharing" target="_blank">
   <button className="button text-gray-100 dark:text-neutral-300 mt-6 mb-4 rounded-[20px] py-3 px-6 md:px-9 bg-[#1571e1] dark:bg-neutral-700 dark:hover:text-neutral-300 hover:text-black dark:hover:bg-neutral-600 hover:bg-white hover:border hover:border-black dark:hover:border-neutral-800 flex items-center">
     <FontAwesomeIcon icon={faFile} style={{ color: "#fcfcfc", marginRight: '20px' }} />
     <span className="font-raleway text-base sm:text-m font-normal">Download cv</span>
