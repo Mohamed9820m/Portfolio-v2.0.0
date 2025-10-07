@@ -9,6 +9,10 @@ import scissors from '../../public/scissors.png'
 import store from '../../public/store.png'
 import coach from '../../public/coach.png'
 import web from '../../public/newwww.png'
+import restau from '../../public/restau.png'
+import delivery from '../../public/delivery.png'
+import admin from '../../public/admin.png'
+
 
 
 
@@ -30,6 +34,228 @@ const PortfolioIsotope = () => {
   
 
       <div  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 xl:px-20">
+
+
+
+        
+
+
+
+<div className="text-black rounded-xl border p-6 bg-white hover:border-black dark:bg-neutral-800 dark:border-neutral-700 cursor-pointer hover:scale-95 ease-in-out ">
+          <div className="group overflow-y-auto no-scrollbar">
+            <div className="my-2 text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300">
+              <i className="fas fa-file-invoice fa-xl fa-fw"></i>
+            </div>
+            <h1 className="text-xl font-medium text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300 font-raleway line-clamp-1 mb-3.5 ">
+            Restaurant Website Ecommerce
+            </h1>
+
+            <div
+  className="works-item scrolla-element-anim-1 scroll-animate"
+  data-animate="active"
+>
+
+
+  <div className="imag">
+    <div className="img">
+        <a>
+          <Image
+            src={restau}
+            alt="Gooir"
+          />
+          <span className="overlay" />
+        </a>
+    </div>
+  </div>
+    <div className="text m-1">
+      <p>
+        This is a fully responsive restaurant web application built with Next.js, Tailwind CSS, and SQL for data management. It serves as the restaurant’s main public interface, allowing customers to explore the menu, learn about the restaurant, and easily place orders online.
+
+Modern UI/UX: Designed with Tailwind CSS for a clean, minimalistic interface that adapts seamlessly to all screen sizes.
+
+Dynamic Menu: The dishes and prices are fetched dynamically from a SQL database, allowing the restaurant to update items in real time.
+
+Fast and Secure: Deployed with Vercel, ensuring optimized performance and automatic HTTPS for user security.
+      </p>
+      
+    </div>
+</div>
+
+         
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://restaurant-delta-eight-98.vercel.app"
+            >
+                <span className="font-raleway leading-normal font-medium flex items-center group hover:fa-bounce">
+                  <span className="underline">View</span>
+                  <div className="text">
+  
+      <Image
+    className="bg-imge"
+    src = {decor}
+    alt="Gooir"
+
+  />
+    </div>
+                </span>
+            </a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className="text-black rounded-xl border p-6 bg-white hover:border-black dark:bg-neutral-800 dark:border-neutral-700 cursor-pointer hover:scale-95 ease-in-out ">
+          <div className="group overflow-y-auto no-scrollbar">
+            <div className="my-2 text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300">
+              <i className="fas fa-file-invoice fa-xl fa-fw"></i>
+            </div>
+            <h1 className="text-xl font-medium text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300 font-raleway line-clamp-1 mb-3.5 ">
+              Delivery Management Page
+            </h1>
+
+            <div
+  className="works-item scrolla-element-anim-1 scroll-animate"
+  data-animate="active"
+>
+
+
+  <div className="imag">
+    <div className="img">
+        <a>
+          <Image
+            src={delivery}
+            alt="Gooir"
+          />
+          <span className="overlay" />
+        </a>
+    </div>
+  </div>
+    <div className="text m-1">
+      <p>
+       This section focuses on the delivery system, providing a streamlined way for customers to track or place delivery orders.
+
+Interactive Delivery Interface: Users can view their orders, delivery status, and estimated arrival time.
+
+Database Integration: Orders are stored and updated in real time via a connected SQL database.
+
+Optimized for Speed: Built with Next.js routing and server-side rendering for instant loading and smooth navigation.<br />
+DEMO ACCOUNT <br />
+Username : bilel <br />
+Password : bilel123
+      </p>
+      
+    </div>
+</div>
+
+         
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://restaurant-delta-eight-98.vercel.app/delivery"
+            >
+                <span className="font-raleway leading-normal font-medium flex items-center group hover:fa-bounce">
+                  <span className="underline">View</span>
+                  <div className="text">
+  
+      <Image
+    className="bg-imge"
+    src = {decor}
+    alt="Gooir"
+
+  />
+    </div>
+                </span>
+            </a>
+          </div>
+        </div>
+
+
+
+
+
+
+        
+        <div className="text-black rounded-xl border p-6 bg-white hover:border-black dark:bg-neutral-800 dark:border-neutral-700 cursor-pointer hover:scale-95 ease-in-out ">
+          <div className="group overflow-y-auto no-scrollbar">
+            <div className="my-2 text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300">
+              <i className="fas fa-file-invoice fa-xl fa-fw"></i>
+            </div>
+            <h1 className="text-xl font-medium text-neutral-700 dark:text-neutral-500 group-hover:text-black dark:group-hover:text-neutral-300 font-raleway line-clamp-1 mb-3.5 ">
+              Admin Dashboard
+            </h1>
+
+            <div
+  className="works-item scrolla-element-anim-1 scroll-animate"
+  data-animate="active"
+>
+
+
+  <div className="imag">
+    <div className="img">
+        <a>
+          <Image
+            src={admin}
+            alt="Gooir"
+          />
+          <span className="overlay" />
+        </a>
+    </div>
+  </div>
+    <div className="text m-1">
+      <p>
+       The admin dashboard is designed for restaurant owners and staff to efficiently manage their business operations.
+
+Order Management: View, confirm, and update customer orders directly from the dashboard.
+
+Menu Control: Add, edit, or remove menu items with immediate synchronization to the main site.
+
+Secure Access: Protected admin area with authentication logic for authorized users only.
+
+Data Analytics: (Optional future upgrade) Designed to support insights such as sales trends, customer activity, and popular dishes.<br />
+DEMO ACCOUNT <br />
+Password : admin123
+</p>
+      
+    </div>
+</div>
+
+         
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://restaurant-delta-eight-98.vercel.app/admin"
+            >
+                <span className="font-raleway leading-normal font-medium flex items-center group hover:fa-bounce">
+                  <span className="underline">View</span>
+                  <div className="text">
+  
+      <Image
+    className="bg-imge"
+    src = {decor}
+    alt="Gooir"
+
+  />
+    </div>
+                </span>
+            </a>
+          </div>
+        </div>
+
+
+
+
+
 
 
            {/* project one  */}
